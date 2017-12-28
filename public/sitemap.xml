@@ -3,8 +3,19 @@
 
   
   <url>
-    <loc>//#title-page</loc>
-    <lastmod>2017-12-28T09:12:04-08:00</lastmod>
+    <loc>//#intro</loc>
+  </url>
+  
+  <url>
+    <loc>//#work</loc>
+  </url>
+  
+  <url>
+    <loc>//#about</loc>
+  </url>
+  
+  <url>
+    <loc>//#contact</loc>
   </url>
   
   <url>
@@ -14,7 +25,6 @@
   
   <url>
     <loc>//#</loc>
-    <lastmod>2017-12-28T09:12:04-08:00</lastmod>
     <priority>0</priority>
   </url>
   
