@@ -132,10 +132,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
-  custom_js  = [
-    "bgimages.js",
-    "jquery.min.js"
-  ]
+  custom_js  = []
 
   # Publication types.
   #   Used to categorize publications.

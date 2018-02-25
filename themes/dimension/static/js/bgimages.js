@@ -9,7 +9,7 @@ String.prototype.hashCode = function(){
 };
 
 var getBackgroundImages = function() {
-    var backgrounds = document.getElementsByTagName("body");
+    var backgrounds = document.getElementsByTagName("hero-overlay");
     var images = [];
     var imgString = backgrounds[0].getAttribute("data-backgrounds");
     if (imgString) {
@@ -37,8 +37,8 @@ var rotateBackground = function(count) {
         count = (count+1) % images.length;
         // console.log("rotating background to "+count);
 
-        document.body.style.background = 'url("' + images[count] +'")';
-        document.body.style.backgroundSize = "cover";
+        section.hero-overlay.style.background = 'url("' + images[count] +'")';
+        section.hero-overlay.style.backgroundSize = "cover";
         if (images.length > 1) {
             setTimeout(rotateBackground.bind(null, count), 30000);
         }

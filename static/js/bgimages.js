@@ -1,4 +1,3 @@
-(function($){
 String.prototype.hashCode = function(){
     // djb2 hash algorithm
     var hash = 5381;
@@ -39,12 +38,12 @@ var rotateBackground = function(count) {
 
         document.getElementById("hero").style.background = 'url("' + images[count] +'")';
         document.getElementById("hero").style.backgroundSize = "cover";
+        document.getElementById("hero").style.backgroundPosition = "center";
+        document.getElementById("hero").style.backgroundAttachment = "fixed";
         if (images.length > 1) {
-            setTimeout(rotateBackground.bind(null, count), 30000);
+            setTimeout(rotateBackground.bind(null, count), 5000);
         }
     }
 };
 preloadBackgrounds();
 rotateBackground();
-
-})(jQuery);
